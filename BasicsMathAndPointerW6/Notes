@@ -1,0 +1,30 @@
+Q1. Difference between 32-bit system and 64-bit system?
+A 32-bit system and a 64-bit system are two different types of computer architecture,with different capabilities and limitations.Here is a detailed comparison
+between the two:
+
+1.Processor architecture:The most significant between a 32-bit system and a 64-bit system is the processor architecture they use.A 32-bit system uses a 32-bit architecture,while a 64-bit system usues a 64-bit architecture.This means that the processor of a 32-bit system can handle data in 32-bit pieces,while the processor of a 64-bit system can handle data in 64-bit pieces.
+
+2.Addressable memory:A 32-bit system can address up to 4 GB of memory,while a 64-bit system can address up to 16 exabytes(EB) of memory.This means that a 64-bit system can handle much larger amounts of memory than a 32-bit system,which is useful for applications that required a lot of memory,such as viedo editing,scientific computing,and gaming.
+
+3.Performance:A 64-bit system can process more data in one cycle compared to a 32-bit system,which result in improved performance for tasks that require a lot of data processing.For example,64-bit systems can perform calculation with large number,process larger images and run more complex software than 32-bit systems.However,for simple tasks,there may not be a noticeable difference in performance between the two.
+
+4.Compatibility: A 32-bit system can run 32-bit software only, while a 64-bit system can run both 32-bit and 64-bit software. However, 64-bit software may not run on a 32-bit system. This means that if you have old software that was designed for a 32-bit system,you may not be able to run on a 64-bit system.
+
+5.Security:A 64-bit system offers enhanced security features,such as hardware-based Data Execution Prevention(DEP),which helps prevent malicious code from executing in memory.This is because 64-bit systems can address more memory than 32-bit system,which means that they can use more advanced security features to protect the system.
+
+6.Power consumption:A 32-bit system uses less power compared to a 64-bit system,as it processes data in smaller chunks.This means that 32-bit systems may be more suitable for devices with limited battery life,such as laptops and mobile devices.
+
+
+Q2.Why Pointer Size was coming 8 while printing?
+In c++, the size of a pointer is architecture-dependent and can very depending on the target platform.However,on most mordern platform,including those based on x86-64 architecture,pointer are typically 8 bytes in size.
+To understand why pointers are tpically 8 bytes in size on modern platforms,we need to dive into the details of computer memory organization and the x86-64 architecture.
+In computer memory organization,each byte of memory is assigned a unique address,and these addresses are used to access and manipulate data stored in memory.A pointer is a variable that stores the address of another variable in memory.When we declare a pointer in c++,the size of the pointer variable is determined by the size of the memory addresses used by the architecture.
+The x86-64 architecture is a 64-bit extension of the x86 architectiure,which has been used in Intel and AMD processors since the 1980s.One of the key features of the x86-64 architectiure is that it supports a much larger address space than its 32-bit predecessor.Specifically,x86-64 supports a theoretical maximum of 2^64 bytes of addressable memory,which is far more than what is actually physically possible to implement in modern systems.
+To enable this larger address space,x86-64 processors use 64-bit memory addresses,which require 8 bytes of storage.This means that any pointer variable in c++ that is used to store a memory address on x86-64 platform must also be 8 bytes in size.
+In addition to the memory address size,there are other factors that can affect the size of a  pointer variable in c++.For example,some compilers may add padding or alignment bytes to ensure that the pointer is properly aligned in memory,which can increase its size.Additionally,some platforms may support different pointer sizes for different types of data.
+Overall the size of a pointer in c++ depends on a variety of factors,including the target platform's architecture,compiler implementation,and memory organization.However,on most modern platform,including those based on x86-64 architecture,pointers are typically 8 bytes in size to support the larger address space enabled by 64-bit memory addresses.
+
+Q3.Why we canot do arr = arr+1 in c++?
+Q4.Wild Pointers in c++?
+Q5.Void Pointer in c++?
+Q6.Dangling Pointer in c++?
