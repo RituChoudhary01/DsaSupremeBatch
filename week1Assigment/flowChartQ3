@@ -1,0 +1,6 @@
+Q3. flow chart and pseudocode to find simple interest
+ formula = p*r*t/100
+ Pseudocode
+  1.read P,R and T.
+  2.SI = (P*R*T)/100.
+  3.print SI.

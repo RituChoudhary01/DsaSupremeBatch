@@ -1,0 +1,12 @@
+Q6. flow chart and pseudocode for check a number is prime or not
+Pseudocode
+ 1.read n;
+ 2.if i<n;
+   a.if n%i = 0;
+     print "no prime";
+     got to 3;
+   b.else i=i+1.
+   c. goto 3.
+ 4. else print"prime" ;  
+ 5 end;
+

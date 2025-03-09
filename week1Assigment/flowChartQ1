@@ -1,0 +1,5 @@
+Q1. flowchat and pseudocode multiply by two number
+ pseudocode
+  1.Read a and b;
+  2.product = a*b;
+  3.print product

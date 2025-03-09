@@ -1,0 +1,8 @@
+Q7. flow chart and pseudocode for check given Triangle is valid or not.
+Pseudocode
+1. read a,b and c.
+2. if(a+b)>c or (b+c)>a or (c+a)>b.
+  a. print"valid triangle"
+  b.goto 4.
+3.else print "not a valid triangle".
+4.end;  

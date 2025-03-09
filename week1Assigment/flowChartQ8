@@ -1,0 +1,9 @@
+Q8. flow chart and pseudocode for Print only number from 1 to n.
+Pseudocode
+1.Read n.
+2.i=2.
+3.if i<=n.
+  a.print i.
+  b.i=i+1.
+  c.goto 3.
+4.else stop.  

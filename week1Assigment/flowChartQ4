@@ -1,0 +1,10 @@
+Q4. flow chart and pseudocode Print counting from N to 1.
+Pseudocode
+1.start
+2.read n.
+3.set i=n;
+ if i>=1
+ a.print i.
+ b.i=i-1.
+ c.goto 3.
+4.else stop 

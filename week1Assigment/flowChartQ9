@@ -1,0 +1,11 @@
+Q9. flow chart and pseudocode for print maximum of three numbers
+Pseudocode
+ 1. read a,b,c.
+ 2. if a>b
+   a. if a>c
+     print a.
+   b. else print c.
+ 3. else
+    a. if b>c 
+       print b.
+    b. print c.   

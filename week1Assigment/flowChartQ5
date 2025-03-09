@@ -1,0 +1,11 @@
+Q5. flow chart and pseudocode of find factorial of a number
+Pseudocode
+1.start.
+2.read n.
+3.set fact = 1.
+4.if n>=1
+    a.fact = fact*n.
+    b. n = n-1.
+    c.goto 3.
+ 5.else print fact.
+ 6.end.   
